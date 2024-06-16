@@ -1,0 +1,38 @@
+.employee-list {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .employee-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .employee-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .employee-list th, .employee-list td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .employee-list th {
+    background-color: #f4f4f4;
+  }
+  
+  .employee-list button {
+    padding: 5px 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .employee-list button:hover {
+    background-color: darkred;
+  }
+  
