@@ -65,7 +65,7 @@ const Register = () => {
     }
 
     try {
-      const response = await UserSignup({ name, email, password }); 
+      const response = await UserSignup({ name, email, password,}); 
       console.log(response);
       toast.success("Registration successful!", {
         position: "top-center",
